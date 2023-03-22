@@ -1,3 +1,4 @@
+
 <?php
 if(isset($_SESSION))
     {
@@ -19,13 +20,68 @@ if(isset($_SESSION))
         </style>
         </head>
         <body>
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-          <div class="dropdown-content">
-            <a href="">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
+        <nav>
+            <button class="dropbtn"></button>
+                <div class="menu">
+                    <ul>
+                        <li><a href="HOME.html">CONTACTS</li>
+                        <li><a href="SHOP.html"> SHOP</a></li>
+                        <li> <a href="UPDATES.html">UPDATES</a></li>
+                        <li><a href="CONTACTS.html">CONTACTS</li>
+                    </ul>
+              
+
+                </div>
+        </nav>
+        <h1>FOURFRONT COMPUTERS</h1>
+        <div class="menu">
+          <button class="dropbtn"></button>
+          <div class="menu2">
+          <ul>
+            <a href="#">SHOP</a>
+            <a href="#">UPDATES</a>
+            <a href="#">CONTACTS</a>
+          </ul>
+            </div>
         </div>
+        <style>
+        body{
+            background-color: white;
+            background-image: url(/cover.jpeg);
+            display: block;
+        
+        
+        }
+        menu{
+  
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;          
+            background-position-x: 15px;
+            text-align: center;
+        }
+        .menu ul {
+            display:inline-flex;
+            list-style: none;
+            list-style-type: none;
+            color:grey;
+        }
+        .menu ul li {
+            width: 50;
+            margin: 15px;
+            padding: 15px;
+            background-color:none;
+            box-sizing: none;
+        }
+        h1 {
+                margin: 50px;
+                letter-spacing: 12px;
+                padding: 80px;
+                text-align: top;
+            
+                color:red;
+                font-family: inherit;
+                font-size: 40px;
+}
+        </style>
         </body>
         </html>
