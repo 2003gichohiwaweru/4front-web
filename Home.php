@@ -37,10 +37,11 @@ if(isset($_SESSION))
         <div class="menu">
           
         </div>
+    
         <style>
         body{
             background-color: white;
-            background-image: url(/Media/admin.jpeg);
+            background-image: url(/admi.jpg);
             display: block;
         
         
