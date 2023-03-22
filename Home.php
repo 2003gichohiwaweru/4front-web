@@ -37,12 +37,7 @@ if(isset($_SESSION))
         <div class="menu">
           <button class="dropbtn"></button>
           <div class="menu2">
-          <ul>
-            <a href="#">SHOP</a>
-            <a href="#">UPDATES</a>
-            <a href="#">CONTACTS</a>
-          </ul>
-            </div>
+          
         </div>
         <style>
         body{
