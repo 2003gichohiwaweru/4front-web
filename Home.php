@@ -40,7 +40,7 @@ if(isset($_SESSION))
         <style>
         body{
             background-color: white;
-            background-image: url(/cover.jpeg);
+            background-image: url(/Media/admin.jpeg);
             display: block;
         
         
