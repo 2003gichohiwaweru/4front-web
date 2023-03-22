@@ -35,8 +35,6 @@ if(isset($_SESSION))
         </nav>
         <h1>FOURFRONT COMPUTERS</h1>
         <div class="menu">
-          <button class="dropbtn"></button>
-          <div class="menu2">
           
         </div>
         <style>
