@@ -1,0 +1,116 @@
+body {
+    margin : 0;
+    padding : 0;
+    text-align : left;
+    font : 75% "Trebuchet MS", verdana, arial, sans-serif;
+    line-height : 1.5em;
+    background : #714a64 url(Media/Psychopath.jpg) repeat-y;
+    color : #30f49c;
+    display: block;
+}
+#wrapper
+{
+position : relative;
+width : 100px;
+margin-right : auto;
+margin-left : auto;
+padding : 0;
+border : 0px solid green;
+background : #fff;
+}
+			/*TOP TITLE BAR*/
+#title {
+width : 100px;
+margin-left : 5px;
+padding : 0;
+text-align : left;
+background : #fff;
+color : #000;
+}
+#title h1 {
+margin : 0;
+padding : 10px;
+font-size : 175%;
+text-transform : uppercase;
+letter-spacing : 5px;
+background : inherit;
+color : #BCE0A8;
+}
+			/*BANNER*/
+#header {
+background : url(Media/oppo.jpg) no-repeat;
+width : 770px;
+height : 200px;
+margin : 0 0 0 5px;
+padding : 0 0 0 0;
+}
+			/*TOP NAVIGATION*/
+.container {
+width : 770px;
+height : 35px;
+margin : 20px 0 10px 5px;
+background-color:#669933;
+color:#FFFFCC;
+}
+#navCircle {
+margin : 0;
+padding : 0 0 20px 20px;
+
+}
+#navCircle li {
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+margin-top:5px;
+}
+#navCircle a:link, #navCircle a:visited {
+float : left;
+font-size : 1.3em;
+padding : 0 25px 15px 25px;
+text-decoration : none;
+background : inherit;
+color:#FFFFCC;
+margin-top:5px;
+}
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+background-color : inherit;
+color : #FFFFCC;
+
+}
+			/*MAIN CONTENT*/
+#content {
+width : 560px;
+float : left;
+margin-top : 0;
+margin-left : 11px;
+padding : 5px;
+border-right : 1px solid #b2d094;
+}
+#content p {
+padding : 0 20px;
+}
+			/*SIDEBAR*/
+#right-col {
+width : 175px;
+margin : 5px 0 0 590px;
+border-left : 1px none #28460a;
+padding : 3px;
+}
+			/*FOOTER*/
+#footer {
+margin : 50px 0 0 0;
+padding : 5px;
+font : 90% "Trebuchet MS", verdana, arial, sans-serif;
+background : #4b692d;
+color : #fff;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : #b2d094;
+}
+#footer a:hover {
+background : inherit;
+color : #fff;
+text-decoration : none;
+}
