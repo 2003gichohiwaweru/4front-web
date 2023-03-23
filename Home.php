@@ -22,7 +22,7 @@ if(isset($_SESSION))
         <body>
         <nav>
             <button class="dropbtn"></button>
-                <div class="menu">
+                <div class="men">
                     <ul>
                         <li><a href="HOME.html">CONTACTS</li>
                         <li><a href="SHOP.html"> SHOP</a></li>
@@ -34,32 +34,30 @@ if(isset($_SESSION))
                 </div>
         </nav>
         <h1>FOURFRONT COMPUTERS</h1>
-        <div class="menu">
-          
-        </div>
+       
     
         <style>
         body{
             background-color: white;
-            background-image: url(/admi.jpg);
+            background-image: url(C:\xampp\htdocs\4front-web\Media);
             display: block;
         
         
         }
-        menu{
+         .men{
   
             font-family: Arial, Helvetica, sans-serif;
             font-size: larger;          
             background-position-x: 15px;
             text-align: center;
         }
-        .menu ul {
+        .men ul {
             display:inline-flex;
             list-style: none;
             list-style-type: none;
             color:grey;
         }
-        .menu ul li {
+        .men ul li {
             width: 50;
             margin: 15px;
             padding: 15px;
