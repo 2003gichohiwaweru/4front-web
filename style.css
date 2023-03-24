@@ -4,25 +4,26 @@ body {
     text-align : left;
     font : 75% "Trebuchet MS", verdana, arial, sans-serif;
     line-height : 1.5em;
-    background : #714a64 url(Media/Psychopath.jpg) repeat-y;
+    background : url(Media/Psychopath.jpg) repeat-y;
     color : #30f49c;
     display: block;
 }
 #wrapper
 {
+display: inline-flex;
 position : relative;
 width : 100px;
 margin-right : auto;
 margin-left : auto;
-padding : 0;
+padding : 10;
 border : 0px solid green;
 background : #fff;
 }
 			/*TOP TITLE BAR*/
 #title {
 width : 100px;
-margin-left : 5px;
-padding : 0;
+margin-left : 12px;
+padding : 10;
 text-align : left;
 background : #fff;
 color : #000;
@@ -83,7 +84,7 @@ color : #FFFFCC;
 width : 560px;
 float : left;
 margin-top : 0;
-margin-left : 11px;
+margin-left : 0px;
 padding : 5px;
 border-right : 1px solid #b2d094;
 }
@@ -102,7 +103,7 @@ padding : 3px;
 margin : 50px 0 0 0;
 padding : 5px;
 font : 90% "Trebuchet MS", verdana, arial, sans-serif;
-background : #4b692d;
+background : rgb(51, 122, 39);
 color : #fff;
 }
 #footer a:link, #footer a:visited {

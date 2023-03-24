@@ -8,7 +8,7 @@
 <style type="text/css">
 <!--
 .style8 {font-size: 24px}
-.style9 {font-size: 95%; font-weight: bold; color: #003300; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.style9 {font-size: 100%; font-weight: bold; color: #003300; font-family: Verdana, Arial, Helvetica, sans-serif; }
 -->
 </style>
 </head>
@@ -36,18 +36,16 @@
         <td height="26" bgcolor="#BCE0A8"><div align="center" class="style9">OPPO</div></td>
         <td bgcolor="#BCE0A8"><div align="center" class="style9">HP</div></td>
         <td bgcolor="#BCE0A8"><div align="center" class="style9">DELL</div></td>
+        
       </tr>
     </table>
     <p>&nbsp;</p>
   </div>
- /*<?php
- include "Right.php";
- ?>
- */
-  <div style="clear:both;"></div>
-   <?php
+
+  
+
+</body>
+<?php
  include "Footer.php";
  ?>
-</div>
-</body>
 </html>
