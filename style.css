@@ -9,54 +9,45 @@ body {
     
     text-align : left;
     font-family: montserrat;
-    background : url(Media/Psychopath.jpg) repeat-y;
+    background-color: brown;
     background-position: inherit;
     display: block;
 }
-#wraper 
-{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
-  #title{
+ #title{
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     background-color: none;
-    padding-left: 12px;
-    margin-left: 60px;
 
   }
   #container{
-    padding: 0 100%;
-    line-height: 80px;
-    font-weight: bold;
-    display: inline-flex;
-    padding: 15px;
-  }
-  #navCircle{
-    display: inline-flex;
-    margin-right: 20;
-    line-height: 80px;
-    text-transform: uppercase;
+    background: blue;
+    height: 80px;
+    width: 100%;
+    margin-top: 12px;
     
-      
   }
-  .navCircle li{
+.container ul {
     display: inline-flex;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 30px;
   }
-  .navCircle li a{
-    color: white;
-    font-size: 18px;
+  .container ul li{
+    display: inline-flex;
+    line-height: 100%;
+    margin: 0 5px;
+
+
+
+  }
+  .container ul li a{
+    color:black;
+    font-size: 25px;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 5;
   } 
   a.tive,a:hover{
-    background-color: beige;
+    background-color: rgb(11, 182, 205);
     transition: 0.5s;
 
   }
