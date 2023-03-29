@@ -6,7 +6,7 @@
     <ul id="navCircle">
      
 
-      <li><a href="Category.php">HOME</a></li>
+      <li><a class="Ative" href="Category.php">HOME</a></li>
       <li><a href="Products.php">SHOP</a></li>
       <li><a href="Offers.php">UPDATES</a></li>
       <li><a href="Register.php">CART</a></li>
