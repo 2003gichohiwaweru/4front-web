@@ -15,3 +15,15 @@ body {
     padding-bottom: 50px;
     padding-left: 80px;
   }
+  #title{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    padding-left: 12px;
+
+  }
+  #container{
+    padding-inline-start: 60px;
+
+
+  }
