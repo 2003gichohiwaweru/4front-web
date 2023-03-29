@@ -21,11 +21,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: none;
     padding-left: 12px;
-    float: ;
 
   }
   #container{
     padding-inline-start: 60px;
+    display: inline-flex;
+    padding: 15px;
 
 
   }
