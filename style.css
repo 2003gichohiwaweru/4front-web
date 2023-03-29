@@ -5,6 +5,7 @@ body {
     font : 75% "Trebuchet MS", verdana, arial, sans-serif;
     line-height : 1.5em;
     background : url(Media/Psychopath.jpg) repeat-y;
+    background-position: inherit;
     color : #30f49c;
     display: block;
 }
@@ -18,8 +19,9 @@ body {
   #title{
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    background-color: none;
     padding-left: 12px;
+    float: ;
 
   }
   #container{
