@@ -1,12 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
-    margin : 0;
-    padding : 0;
+    
     text-align : left;
-    font : 75% "Trebuchet MS", verdana, arial, sans-serif;
-    line-height : 1.5em;
+    font-family: montserrat;
     background : url(Media/Psychopath.jpg) repeat-y;
     background-position: inherit;
-    color : #30f49c;
     display: block;
 }
 #wraper 
@@ -21,18 +25,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: none;
     padding-left: 12px;
+    margin-left: 60px;
 
   }
   #container{
-    padding-inline-start: 60px;
+    padding: 0 100%;
+    line-height: 80px;
+    font-weight: bold;
     display: inline-flex;
     padding: 15px;
   }
   #navCircle{
     display: inline-flex;
-    font-size: 30px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 20;
+    line-height: 80px;
+    text-transform: uppercase;
+    
       
+  }
+  .navCircle li{
+    display: inline-flex;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  .navCircle li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 5;
+  } 
+  a.tive,a:hover{
+    background-color: beige;
+    transition: 0.5s;
+
   }
