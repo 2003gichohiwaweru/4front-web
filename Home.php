@@ -13,6 +13,17 @@
 </style>
 </head>
 <body>
+<div class="background-image"</div>
+<style>{
+    background-image:url(Media/home.jpg);
+    height: 100vh;
+    background-repeat: no repeano-repeat;
+    background-size:cover;
+
+
+  }
+</style>  
+
 <div id="wrapper">
 
   <?php
@@ -28,15 +39,16 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <td><p><img src="Media/admin.jpg" alt="box" width="100" height="100" hspace="10" align="left" class="imgleft" title="box" /></p></td>
-        <td><p><img src="Media/Hp Laptop.jpg" alt="box" width="100" height="100" hspace="10" align="left" class="imgleft" title="box" /></p></td>
-        <td><p><img src="Media/oppo.jpg" alt="box" width="100" height="100" hspace="10" align="left" class="imgleft" title="box" /></p></td>
+        <td><p><img src="Media/admin.jpg" alt="box" width="300" height="300" hspace="10" align="left" class="imgleft" title="box" /></p></td>
+        <td><p><img src="Media/Hp Laptop.jpg" alt="box" width="300" height="300" hspace="10" align="left" class="imgleft" title="box" /></p></td>
+        <td><p><img src="Media/oppo.jpg" alt="box" width="300" height="300" hspace="10" align="left" class="imgleft" title="box" /></p></td>
+        <td><p><img src="Media/Psychopath.jpg" alt="box" width="300" height="300" hspace="10" align="left" class="imgleft" title="box" /></p></td>
       </tr>
       <tr>
         <td height="26" bgcolor="#BCE0A8"><div align="center" class="style9">OPPO</div></td>
         <td bgcolor="#BCE0A8"><div align="center" class="style9">HP</div></td>
         <td bgcolor="#BCE0A8"><div align="center" class="style9">DELL</div></td>
-        
+        <td bgcolor="#BCE0A8"><div align="center" class="style9">Lenovo</div></td>
       </tr>
     </table>
     <p>&nbsp;</p>

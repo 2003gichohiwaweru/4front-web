@@ -1,16 +1,12 @@
-<div id="title">
-    <h1><span style="color: #008000;">FOURFRONT COMPUTERS</span></h1>
-  </div>
-  
-<div class="container">
-    <ul id="navCircle">
+ <div class="container">
+    <ul id="nako">
      
 
-      <li><a class="Ative" href="Category.php">HOME</a></li>
-      <li><a href="Products.php">SHOP</a></li>
-      <li><a href="Offers.php">UPDATES</a></li>
+      <li><a class="Ative" href="Home.php">HOME</a></li>
+      <li><a href="Shop.php">SHOP</a></li>
+      <li><a href="Updates.php">UPDATES</a></li>
       <li><a href="Register.php">CART</a></li>
-      <li><a href="Contact.php">CONTACTS</a></li>
+      <li><a href="Contacts.php">CONTACTS</a></li>
     
     </ul>
   </div>
